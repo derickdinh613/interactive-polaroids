@@ -13,6 +13,7 @@ html {
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
   transition: box-shadow 200ms linear;
+
   position: absolute;
 }
 
@@ -37,6 +38,13 @@ html {
 }
 
 .polaroid:nth-child(2) {
+  left: 30%;
+  top: 150px;
+  transform: rotate(5deg);
+  z-index: 3;
+}
+
+.polaroid:last-child {
   left: 40%;
   top: 100px;
   transform: rotate(33deg);
